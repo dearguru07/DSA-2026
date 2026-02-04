@@ -199,20 +199,20 @@
 // }
 // console.log(countDigits(posNum));
 
-let n = 5;
-for (let i = 0; i < n; i++) {
-  let toggle = 1;
-  let row = "";
-  for (let j = 0; j <= i; j++) {
-    row = row + toggle;
-    if (toggle == 0) {
-      toggle = 1;
-    } else {
-      toggle = 0;
-    }
-  }
-  console.log(row);
-}
+// let n = 5;
+// for (let i = 0; i < n; i++) {
+//   let toggle = 1;
+//   let row = "";
+//   for (let j = 0; j <= i; j++) {
+//     row = row + toggle;
+//     if (toggle == 0) {
+//       toggle = 1;
+//     } else {
+//       toggle = 0;
+//     }
+//   }
+//   console.log(row);
+// }
 
 // let n = 5;
 // for (let i = 0; i < n; i++) {
@@ -228,3 +228,16 @@ for (let i = 0; i < n; i++) {
 //   }
 //   console.log(row);
 // }
+
+// for (let i = 0; i <= 5; i++) {
+//   setTimeout(function () {
+//     console.log(i);
+//   }, i * 1000);
+// }
+
+
+for (var i = 0; i <= 5; i++) {
+  setTimeout(function () {
+    console.log(a);
+  }, i * 1000);
+}

@@ -229,15 +229,18 @@
 //   console.log(row);
 // }
 
-// for (let i = 0; i <= 5; i++) {
-//   setTimeout(function () {
-//     console.log(i);
-//   }, i * 1000);
+
+
+// let array = [1, 2, 5, 4, 7, 8, 5, 0];
+// let sum=0
+// for (let i = 0; i < array.length; i++){
+//     sum = sum + array[i];
 // }
+// console.log(sum);
 
 
-for (var i = 0; i <= 5; i++) {
-  setTimeout(function () {
-    console.log(a);
-  }, i * 1000);
-}
+// function Sum(n) {
+//     if (n == 0) return array[0];
+//     return array[n] + Sum(n - 1);
+// }
+// console.log(Sum(array.length-1))
